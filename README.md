@@ -74,8 +74,16 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | GraphENS  | GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification   | ICLR 2022  | [PDF](https://openreview.net/forum?id=MXEl7i-iru)  | [PyTorch](https://github.com/JoonHyung-Park/GraphENS)  |
 | ALLIE  | ALLIE: Active Learning on Large-scale Imbalanced Graphs  | WWW 2022  | [PDF](https://dl.acm.org/doi/10.1145/3485447.3512229)  | [N/A]  |
 | GraphSANN  | Imbalanced Node Classification Beyond Homophilic Assumption  | IJCAI 2023  | [PDF](https://arxiv.org/abs/2304.14635)  | 	[N/A]  |
-
-
+|GraphSR|GraphSR: a data augmentation algorithm for imbalanced node classification|AAAI 2023|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/25622)|[PyTorch](https://github.com/CastalZhou/graphsr)|
+|ImGCL|ImGCL: Revisiting Graph Contrastive Learning on Imbalanced Node Classification|AAAI 2023|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/26319)|[N/A]|CIKM 2023
+|SNS|Semantic-aware Node Synthesis for Imbalanced Heterogeneous Information Networks|CIKM 2023|[PDF](https://arxiv.org/pdf/2302.14061)|[PyTorch](https://github.com/XYGaoG/SNS)|
+|GraphSANN|Imbalanced Node Classification Beyond Homophilic Assumption|IJCAI 2023|[PDF](https://arxiv.org/pdf/2304.14635)|[N/A]|
+|ReVar|Rethinking Semi-Supervised Imbalanced Node Classification from Bias-Variance Decomposition|NeurIPS 2023|[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/5d1233f819202ade06023346df80a6d2-Paper-Conference.pdf)|[PyTorch](https://github.com/yanliang3612/ReVar)|
+|BNE|Balanced neighbor exploration for semi-supervised node classification on imbalanced graph data|Information Sciences 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0020025523002529)|[N/A]|
+|INS-GNN|INS-GNN: Improving graph imbalance learning with self-supervision|Information Sciences 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0020025523005042)|[N/A]|
+|GraphSHA|GraphSHA: Synthesizing Harder Samples for Class-Imbalanced Node Classification|KDD 2023|[PDF](https://arxiv.org/pdf/2306.09612)|[PyTorch](https://github.com/wenzhilics/GraphSHA)|
+|GNN-CL|Graph Neural Network with Curriculum Learning for Imbalanced Node Classification|Neurocomputing 2024|[PDF](https://arxiv.org/pdf/2202.02529)|[N/A]|
+|Graph-DAO|A novel graph oversampling framework for node classification in class-imbalanced graphs|SCIS 2024|[PDF](http://scis.scichina.com/en/2024/162101.pdf)|[N/A]|
 
 
 #### 1.1.2 Node-Level Anomaly Detection
@@ -176,6 +184,39 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | GCAD  | Subgraph Centralization: A Necessary Step for Graph Anomaly Detection  | SDM 2023  | [PDF](https://epubs.siam.org/doi/abs/10.1137/1.9781611977653.ch79)  | [NumPy](https://github.com/IsolationKernel/Codes)  |
 | SAD  | SAD: Semi-Supervised Anomaly Detection on Dynamic Graphs  | IJCAI 2023  | [PDF](https://arxiv.org/abs/2305.13573)  | [NumPy](https://github.com/d10andy/sad)  |
 | VGOD  | Unsupervised Graph Outlier Detection: Problem Revisit, New Insight, and Superior Method  | ICDE 2023  | [PDF](https://openreview.net/pdf?id=Kh5gknUMBk)  | [PyTorch](https://github.com/goldennormal/vgod-github)  |
+|GRADATE|Graph anomaly detection via multi-scale contrastive learning networks with augmented view|AAAI 2023|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/25907)|[PyTorch](https://github.com/FelixDJC/GRADATE)|
+|CLAD|Class Label-aware Graph Anomaly Detection|CIKM 2023|[PDF](https://dl.acm.org/doi/abs/10.1145/3583780.3615249)|[PyTorch](https://github.com/jhkim611/CLAD)|
+|SplitGNN|SplitGNN: Spectral Graph Neural Network for Fraud Detection against Heterophily|CIKM 2023|[PDF](https://dl.acm.org/doi/abs/10.1145/3583780.3615067)|[Pytorch](https://github.com/Split-GNN/SplitGNN)|
+|TSAGMM|Unsupervised Fraud Transaction Detection on Dynamic Attributed Networks|DASFAA 2023|[PDF](https://librahu.github.io/data/dasfaa2023_ufdt_paper.pdf)|[N/A]|
+||Example-based explanations for streaming fraud detection on graphs|Information Sciences 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0020025522014232)|[N/A]|
+|GDAE|Learning graph deep autoencoder for anomaly detection in multi-attributed networks|KBS 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0950705122011807)|[N/A]|
+|RegraphGAN|RegraphGAN: A graph generative adversarial network model for dynamic network anomaly detection|Neural Networks 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0893608023003842)|[N/A]|
+|PANG|Pattern mining for anomaly detection in graphs: Application to fraud in public procurement|RCMLPKDD 2023|[PDF](https://arxiv.org/pdf/2306.10857)|[Scikit-Learn](https://github.com/compnet/pang)|
+|LGM-GNN|LGM-GNN: A local and global aware memory-based graph neural network for fraud detection|TBD 2023|[PDF](https://ieeexplore.ieee.org/abstract/document/10008063/)|[N/A]|
+|CFAD|Counterfactual graph learning for anomaly detection on attributed networks|TKDE 2023|[PDF](https://www.researchgate.net/profile/Chunjing-Xiao/publication/368909540_Counterfactual_Graph_Learning_for_Anomaly_Detection_on_Attributed_Networks/links/643a88231b8d044c6327f2ad/Counterfactual-Graph-Learning-for-Anomaly-Detection-on-Attributed-Networks.pdf)|[PyTorch](https://github.com/ChunjingXiao/CFAD)|
+|ARISE|ARISE: Graph Anomaly Detection on Attributed Networks via Substructure Awareness|TNNLS 2023|[PDF](https://arxiv.org/pdf/2211.15255)|[PyTorch](https://github.com/FelixDJC/ARISE)|
+|SAMCL|SAMCL: Subgraph-Aligned Multiview Contrastive Learning for Graph Anomaly Detection|TNNLS 2023|[PDF](https://ieeexplore.ieee.org/abstract/document/10310240)|[N/A]|
+|AER-AD|Anonymous Edge Representation for Inductive Anomaly Detection in Dynamic Bipartite Graph|VLDB 2023|[PDF](https://www.vldb.org/pvldb/vol16/p1154-fang.pdf)|[PyTorch](https://github.com/fanglanting/AER)|
+|GDN|Alleviating Structural Distribution Shift in Graph Anomaly Detection|WSDM 2023|[PDF](https://arxiv.org/pdf/2401.14155)|[PyTorch](https://github.com/blacksingular/wsdm_GDN)|
+|GHRN|Addressing Heterophily in Graph Anomaly Detection: A Perspective of Graph Spectrum|WWW 2023|[PDF](https://hexiangnan.github.io/papers/www23-graphAD.pdf)|[PyTorch](https://github.com/blacksingular/GHRN)|
+|IMINF|Fraud detection on multi-relation graphs via imbalanced and interactive learning|Information Sciences 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0020025523007387)|[N/A]|
+|ADA-GAD|ADA-GAD: Anomaly-Denoised Autoencoders for Graph Anomaly Detection|AAAI 2024|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/28691)|[PyTorch](https://github.com/jweihe/ADA-GAD)|
+|BSL|Barely Supervised Learning for Graph-Based Fraud Detection|AAAI 2024|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/29593)|[N/A]|
+|ACT|Cross-Domain Graph Anomaly Detection via Anomaly-Aware Contrastive Alignment|AAAI 2024|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/25591)|[PyTorch](https://github.com/QZ-WANG/ACT)|
+|SEC-GFD|Revisiting Graph-Based Fraud Detection in Sight of Heterophily and Spectrum|AAAI 2024||[Code](https://github.com/Sunxkissed/SEC-GFD)|
+|PB-AAD|Improving Robustness of GNN-based Anomaly Detection by Graph Adversarial Training|COLING 2024|[PDF](https://aclanthology.org/2024.lrec-main.779.pdf)|[N/A]|
+|SPGNN|Subgraph Patterns Enhanced Graph Neural Network for Fraud Detection|DASFAA 2024|[PDF](https://link.springer.com/chapter/10.1007/978-981-97-5572-1_26)|[N/A]|
+|F2GNN|F2GNN: An Adaptive Filter with Feature Segmentation for Graph-Based Fraud Detection|ICASSP 2024|[PDF](https://ieeexplore.ieee.org/abstract/document/10446523)|[N/A]|
+|BOURNE|BOURNE: Bootstrapped Self-supervised Learning Framework for Unified Graph Anomaly Detection|ICDE 2024|[PDF](https://arxiv.org/pdf/2307.15244)|[N/A]|
+|DualGAD|DualGAD: Dual-bootstrapped self-supervised learning for graph anomaly detection|Information Sciences 2024|[PDF](https://www.sciencedirect.com/science/article/pii/S002002552400433X)|[N/A]|
+|SEFraud|SEFraud: Graph-based Self-Explainable Fraud Detection via Interpretative Mask Learning|KDD 2024|[PDF](https://arxiv.org/pdf/2406.11389)|[N/A]|
+|HGIF|Heterophilic Graph Invariant Learning for Out-of-Distribution of Fraud Detection|MM 2024|[PDF](https://openreview.net/pdf?id=JnG3wI5E5P)|[PyTorch](https://github.com/Ling-Fei-Ren/HGIF)|
+|GFCN|Graph fairing convolutional networks for anomaly detection|PR 2024|[PDF](https://arxiv.org/pdf/2010.10274)|[PyTorch](https://github.com/MahsaMesgaran/GFCN)|
+|MPIN|Multipattern Integrated Networks With Contrastive Pretraining for Graph Anomaly Detection|TCSS 2024|[PDF](https://ieeexplore.ieee.org/abstract/document/10604432)|[N/A]|
+|Spade+|Spade+: A Generic Real-Time Fraud Detection Framework on Dynamic Graphs|TKDE 2024|[PDF](https://ieeexplore.ieee.org/abstract/document/10510636)|[N/A]|
+|FedCAD|Federated Graph Anomaly Detection via Contrastive Self-Supervised Learning|TNNLS 2024|[PDF](https://ieeexplore.ieee.org/abstract/document/10566052)|[N/A]|
+|GAD-NR|GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction|WSDM 2024|[PDF](https://dl.acm.org/doi/pdf/10.1145/3616855.3635767)|[PyTorch](https://github.com/graph-com/GAD-NR)|
+|BioGNN|Graph Anomaly Detection with Bi-level Optimization|WWW 2024|[PDF](https://openreview.net/pdf?id=84szxJZS1w)|[N/A]|
 
 
 #### 1.1.3 Few-Shot Node Classification
@@ -204,7 +245,13 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | TRGM  | Task-level Relations Modelling for Graph Meta-learning  | ICDM 2022  | [PDF](https://ieeexplore.ieee.org/document/10027781)  | [N/A]  |
 | X-FNC  | Few-shot Node Classification with Extremely Weak Supervision  | WSDM 2023  | [PDF](https://arxiv.org/abs/2301.02708)  | [PyTorch](https://github.com/SongW-SW/X-FNC)  |
 | GraphPrompt  | GraphPrompt: Unifying Pre-Training and Downstream Tasks for Graph Neural Networks  | WWW 2023  | [PDF](https://arxiv.org/abs/2302.08043)  | [PyTorch](https://github.com/Starlien95/GraphPrompt)  |
-
+||Pseudo-Labeling with Graph Active Learning for Few-shot Node Classification|ICDM 2023|[PDF](https://faculty.ist.psu.edu/wu/papers/Pseudo-Labeling-ICDM2023.pdf)|[N/A]|
+|COSMIC|Contrastive Meta-Learning for Few-shot Node Classification|KDD 2023|[PDF](https://dl.acm.org/doi/pdf/10.1145/3580305.3599288)|[PyTorch](https://github.com/SongW-SW/COSMIC)|
+|TEG|Task-Equivariant Graph Few-shot Learning|KDD 2023|[PDF](https://arxiv.org/pdf/2305.18758)|[PyTorch](https://github.com/sung-won-kim/TEG)|
+|VNT|Virtual Node Tuning for Few-shot Node Classification|KDD 2023|[PDF](https://arxiv.org/pdf/2306.06063)|[N/A]|
+|Stager|Generalized few-shot node classification: toward an uncertainty-based solution|KIS 2023|[PDF](https://link.springer.com/article/10.1007/s10115-023-01975-7)|[N/A]|
+|Meta-GIN|Robust Graph Meta-learning for Weakly-supervised Few-shot Node Classification|TKDD 2024|[PDF](https://arxiv.org/pdf/2106.06873)|[N/A]|
+|COLA|Graph Contrastive Learning Meets Graph Meta Learning: A Unified Method for Few-shot Node Tasks|WWW 2024|[PDF](https://dl.acm.org/doi/pdf/10.1145/3589334.3645367)|[PyTorch](https://github.com/Haoliu-cola/COLA)|
 
 
 #### 1.1.4 Zero-Shot Node Classification
@@ -216,7 +263,8 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | RECT  | Expanding Semantic Knowledge for Zero-shot Graph Embedding  | DASFAA 2021  | [PDF](https://arxiv.org/abs/2103.12491)  | [N/A]  |
 | DGPN  | Zero-shot Node Classification with Decomposed Graph Prototype Network  | KDD 2021  | [PDF](https://arxiv.org/abs/2106.08022)  | [PyTorch](https://github.com/zhengwang100/dgpn)  |
 | DBiGCN  | Dual Bidirectional Graph Convolutional Networks for Zero-shot Node Classification  | KDD 2022  | [PDF](http://www.lamda.nju.edu.cn/conf/mla22/paper/yq-KDD2022.pdf)  | [PyTorch](https://github.com/warmerspring/DBiGCN)  |
-
+|MVE|Multi-view enhanced zero-shot node classification|IPM 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0306457323002169)|[N/A]|
+|GraphCEN|Zero-shot Node Classification with Graph Contrastive Embedding Network|TMLR 2023|[PDF](https://openreview.net/pdf?id=8wGXnjRLSy)|[N/A]|
 
 
 ### 1.2 Edge-Level Class Imbalance
@@ -226,6 +274,8 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | Name  | Title | Venue | Paper | Code |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | EA-GAT  | Few-Shot Link Prediction for Event-Based Social Networks via Meta-learning  | DASFAA 2023  | [PDF](https://link.springer.com/chapter/10.1007/978-3-031-30675-4_3)  | [N/A]  |
+|EA-GAT|Few-Shot Link Prediction for Event-Based Social Networks via Meta-learning|DASFAA 2023|[PDF](http://staff.ustc.edu.cn/~tongxu/Papers/Xi_DASFAA23.pdf)|[PyTorch](https://github.com/xizhu1022/FSLP-EBSNs)|
+|MLAN|Meta-learning adaptation network for few-shot link prediction in heterogeneous social networks|IPM 2023|[PDF](https://www.sciencedirect.com/science/article/pii/S0306457323001553)|[N/A]|
 
 #### 1.2.2 Edge-Level Anomaly Detection
 
@@ -239,6 +289,7 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | F-FADE  | F-FADE: Frequency Factorization for Anomaly Detection in Edge Streams  | WSDM 2021  | [PDF](https://arxiv.org/pdf/2011.04723.pdf)  | [PyTorch](https://github.com/snap-stanford/F-FADE)  |
 | LIFE  | Live-Streaming Fraud Detection: A Heterogeneous Graph Neural Network Approach  | KDD 2021  | [PDF](https://dl.acm.org/doi/abs/10.1145/3447548.3467065)  | [N/A]  |
 | GLAD  | Deep Graph Learning for Anomalous Citation Detection  | TNNLS 2022 | [PDF](https://arxiv.org/abs/2202.11360)  | [N/A] |
+| AnoGraph | Sketch-Based Anomaly Detection in Streaming Graphs | KDD 2023 | [PDF](https://dl-acm-org.libproxy1.nus.edu.sg/doi/pdf/10.1145/3580305.3599504)  | [C++](https://github.com/Stream-AD/AnoGraph) |
 
 #### 1.2.3 Imbalanced Link Classification
 
@@ -253,6 +304,7 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | Name  | Title | Venue | Paper | Code |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | $\text{G}^2\text{GNN}$  | Imbalanced Graph Classification via Graph-of-Graph Neural Networks | CIKM 2022  | [PDF](https://arxiv.org/abs/2112.00238)  | [PyTorch](https://github.com/YuWVandy/G2GNN)  |
+|SGIR|Semi-Supervised Graph Imbalanced Regression|KDD 2023|[PDF](https://arxiv.org/pdf/2305.12087)|[PyTorch](https://github.com/liugangcode/SGIR)|
 
 
 #### 1.3.2 Graph-Level Anomaly Detection
@@ -273,6 +325,9 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | AntiBenford  | AntiBenford Subgraphs: Unsupervised Anomaly Detection in Financial Networks  | KDD 2022  | [PDF](https://arxiv.org/abs/2205.13426)  | [Python](https://github.com/tsourakakis-lab/antibenford-subgraphs)  |
 | CNSS  | Calibrated Nonparametric Scan Statistics for Anomalous Pattern Detection in Graphs  | AAAI 2022  | [PDF](https://arxiv.org/abs/2206.12786)  | [N/A]  |
 | ACGPMiner  | Efficient Anomaly Detection in Property Graphs  | DASFAA 2023  | [PDF](https://link.springer.com/chapter/10.1007/978-3-031-30675-4_9)  | [N/A]  |
+| GmapAD | Towards Graph-level Anomaly Detection via Deep Evolutionary Mapping | KDD 2023 | [PDF](https://dl.acm.org/doi/abs/10.1145/3580305.3599524) | [PyTorch](https://github.com/XiaoxiaoMa-MQ/GmapAD) |
+|SIGNET|Towards Self-Interpretable Graph-Level Anomaly Detection|NeurIPS 2023|[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1c6f06863df46de009a7a41b41c95cad-Abstract-Conference.html)|[Pytorch](https://github.com/yixinliu233/SIGNET)|
+|IGAD-CF|Imbalanced Graph-Level Anomaly Detection via Counterfactual Augmentation and Feature Learning|SSDBM 2024|[PDF](https://dl.acm.org/doi/abs/10.1145/3676288.3676292)|[PyTorch](https://github.com/whb605/IGAD-CF)|
 
 #### 1.3.3 Few-Shot Graph Classification
 
@@ -289,6 +344,7 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 |   | Graph Neural Network Expressivity and Meta-Learning for Molecular Property Regression  | LoG 2022  | [PDF](https://arxiv.org/abs/2209.13410)  | [N/A]  |
 | ADKF-IFT  | Meta-learning Adaptive Deep Kernel Gaussian Processes for Molecular Property Prediction  | ICLR 2023  | [PDF](https://arxiv.org/abs/2205.02708)  | [PyTorch](https://github.com/Wenlin-Chen/ADKF-IFT)  |
 | MTA  | Meta-Learning with Motif-based Task Augmentation for Few-Shot Molecular Property Prediction  | SDM 2023  | [PDF](https://epubs.siam.org/doi/10.1137/1.9781611977653.ch91)  | [N/A]  |
+|CDTC|Cross-Domain Few-Shot Graph Classification with a Reinforced Task Coordinator|AAAI 2023|[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/25615)|[PyTorch](https://github.com/anonymous202205/CDTC)|
 
 
 ## 2. Structure Imbalance
@@ -310,6 +366,7 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | MetaDyGNN  | Few-shot Link Prediction in Dynamic Networks  | WSDM 2022  | [PDF](http://www.shichuan.org/doc/120.pdf)  | [PyTorch](https://github.com/BUPT-GAMMA/MetaDyGNN)  |
 | Cold Brew  | Cold Brew: Distilling Graph Node Representations with Incomplete or Missing Neighborhoods  | ICLR 2022  | [PDF](https://arxiv.org/abs/2111.04840)  | [PyTorch](https://github.com/amazon-science/gnn-tail-generalization)  |
 | BLADE  | BLADE: Biased Neighborhood Sampling based Graph Neural Network for Directed Graphs  | WSDM 2023  | [PDF](https://dl.acm.org/doi/abs/10.1145/3539597.3570430)  | [N/A]  |
+|SAILOR|SAILOR: Structural Augmentation Based Tail Node Representation Learning|KDD 2023|[PDF](https://arxiv.org/pdf/2308.06801)|[PyTorch](https://github.com/Jie-Re/SAILOR)|
 
 
 #### 2.1.2 Node Topology Imbalance
@@ -319,6 +376,7 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | ReNode  | Topology-Imbalance Learning for Semi-Supervised Node Classification  | NeurIPS 2021  | [PDF](https://arxiv.org/abs/2110.04099)  | [PyTorch](https://github.com/victorchen96/ReNode)  |
 | PASTEL  | Position-aware Structure Learning for Graph Topology-imbalance by Relieving Under-reaching and Over-squashing  | CIKM 2022  | [PDF](https://arxiv.org/abs/2208.08302)  | [PyTorch](https://github.com/RingBDStack/PASTEL)  |
 | HyperIMBA  | Hyperbolic Geometric Graph Representation Learning for Hierarchy-imbalance Node Classification  | WWW 2023  | [PDF](https://arxiv.org/abs/2304.05059)  | [PyTorch](https://github.com/RingBDStack/HyperIMBA)  |
+|QTIAH-GNN|QTIAH-GNN: Quantity and Topology Imbalance-aware Heterogeneous Graph Neural Network for Bankruptcy Prediction|KDD 2023|[PDF](http://home.njustkmg.cn:4056/assets/pdf/publications/Conference%20Papers/QTIAH-GNN_%20Quantity%20and%20Topology%20Imbalance-aware%20Heterogeneous%20Graph%20Neural%20Network%20for%20Bankruptcy%20Prediction.pdf)|[PyTorch](https://github.com/Nekofish-L/QTIAH-GNN)|
 
 #### 2.1.3 Long-Tail Entity Embedding on KGs
 
@@ -331,7 +389,6 @@ The outline corresponds to the taxonomy of Problems in our [survey paper](https:
 | MorsE  | Meta-Knowledge Transfer for Inductive Knowledge Graph Embedding  | SIGIR 2022  | [PDF](https://arxiv.org/abs/2110.14170)  | [PyTorch](https://github.com/zjukg/MorsE)  |
 | MTKGE  | Meta-Learning Based Knowledge Extrapolation for Temporal Knowledge Graph  | WWW 2023  | [PDF](https://arxiv.org/abs/2302.05640)  | [N/A]  |
 | KG-Mixup  | Toward Degree Bias in Embedding-Based Knowledge Graph Completion  | WWW 2023  | [PDF](https://arxiv.org/abs/2302.05044)  | [PyTorch](https://github.com/HarryShomer/KG-Mixup)  |
-
 
 
 ### 2.2 Edge-Level Structure Imbalance 
